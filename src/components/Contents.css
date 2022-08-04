@@ -1,0 +1,126 @@
+* {margin: 0; padding: 0;}
+img {display: block;}
+li {list-style: none;}
+a {text-decoration: none;}
+
+.visual-main {
+    width: 100%;
+}
+
+.visual-main img {
+    width: 100%;
+}
+
+
+.best-container,
+.chuchun-container {
+    width: 1024px;
+    margin: 70px auto 0;
+    position: relative;
+
+    /* border: 1px solid #333; */
+}
+
+.best-container h2,
+.chuchun-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.best-container .plus,
+.chuchun-container .plus {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.best-container .plus a,
+.chuchun-container .plus a {
+    color: #6e6e6e;
+    font-size: 13px;
+}
+.plus a:hover {
+    text-decoration: underline;
+}
+
+.best_product_box,
+.chuchun_product_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.best_product_box .best,
+.chuchun_product_box .chuchun {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: calc(25% - 15px);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.best_product_box .best img,
+.chuchun_product_box .chuchun img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+/* .best_product_box .best .badge__best {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #333;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+} */
+
+.best_product_box .best .best__desc,
+.chuchun_product_box .chuchun .chuchun__desc {
+    padding: 15px 15px 10px;
+    font-size: 11px;
+    color: #6e6e6e;
+}
+
+.best_product_box .best .best__title,
+.chuchun_product_box .chuchun .chuchun__title {
+    padding: 0 15px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: calc(100% - 30px);
+    display: block;
+    white-space: nowrap;
+}
+
+.best_product_box .best .best__price,
+.chuchun_product_box .chuchun .chuchun__price {
+    padding: 0 15px 15px;
+    color: red;
+    font-weight: bold;
+}
+
+/* .best_product_box .best .best__btn button, */
+.chuchun_product_box .chuchun .chuchun__btn button {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    padding: 10px 0;
+    color: #333;
+    cursor: pointer;
+    transition: 0.4s;
+}
+/* .best_product_box .best .best__btn button:hover, */
+.chuchun_product_box .chuchun .chuchun__btn button:hover {
+    background-color: #999;
+}
+.best_product_box .best .best__btn .heart,
+.chuchun_product_box .chuchun .chuchun__btn .heart {
+    border-right: 1px solid #ddd;
+}
