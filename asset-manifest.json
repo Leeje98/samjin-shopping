@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/samjin-shopping/static/css/main.8f4bc943.css",
+    "main.js": "/samjin-shopping/static/js/main.cff952e4.js",
+    "static/js/787.3a121bbc.chunk.js": "/samjin-shopping/static/js/787.3a121bbc.chunk.js",
+    "index.html": "/samjin-shopping/index.html",
+    "main.8f4bc943.css.map": "/samjin-shopping/static/css/main.8f4bc943.css.map",
+    "main.cff952e4.js.map": "/samjin-shopping/static/js/main.cff952e4.js.map",
+    "787.3a121bbc.chunk.js.map": "/samjin-shopping/static/js/787.3a121bbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f4bc943.css",
+    "static/js/main.cff952e4.js"
+  ]
+}
